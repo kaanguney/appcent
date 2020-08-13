@@ -1,4 +1,4 @@
 # appcent
 ```bash
-marketing-expo app -> Android 
+marketing-expo Android app
 ```
