@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LocationActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_copy_5_rectangle_copy_5_rectangle_copy_5_group_mask"/>
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/left"
+            android:id="@+id/back_from_loc"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="67dp"/>
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="21dp"
+            android:lineSpacingExtra="6sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Lokasyon"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="62dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="354dp"
+            android:background="@drawable/outside_snapshot"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:layout_width="275dp"
+            android:layout_height="25dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="25dp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="6sp"
+            android:text="BOMONTİADA"
+            android:layout_marginTop="470dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:foreground="@drawable/loc"
+            android:layout_marginTop="515dp"
+            />
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="170dp"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="7sp"
+            android:layout_marginTop="735dp"
+            android:text="Lorem ipsum dolor sit amet ave verum corpus cujus latus unda fluxite sanguine. Esto nobis prae gustatum in mortis ex amine in mortis examine. Lorem ipsum dolor sit amet ave verum corpus gulash cujus latus unda fluxite sanguine. Esto nobis prae gustatum in mortis ex amine in mortis demike."
+            />
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="950dp"
+            android:layout_marginLeft="44dp"
+            android:background="@drawable/block_a"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="19dp"
+            android:text="A Blok"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="950dp"
+            android:layout_marginLeft="148dp"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="19dp"
+            android:text="Büyük Salon"
+            android:textStyle="bold"
+            android:textColor="@color/eggplant_purple"
+            android:textSize="12sp"
+            android:layout_marginTop="969dp"
+            android:layout_marginLeft="148dp"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="38dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Lorem Ipsum Dolor Sit Amet Elipsir Kuvvey"
+            android:layout_marginTop="988dp"
+            android:layout_marginLeft="148dp"/>
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="1086dp"
+            android:layout_marginLeft="44dp"
+            android:background="@drawable/block_b"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="19dp"
+            android:text="B Blok"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="1086dp"
+            android:layout_marginLeft="148dp"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="19dp"
+            android:text="Workshop Alanı"
+            android:textStyle="bold"
+            android:textColor="@color/eggplant_purple"
+            android:textSize="12sp"
+            android:layout_marginTop="1105dp"
+            android:layout_marginLeft="148dp"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="38dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Lorem Ipsum Dolor Sit Amet Elipsir Kuvvey"
+            android:layout_marginTop="1124dp"
+            android:layout_marginLeft="148dp"/>
+
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="85dp"
+            android:layout_marginTop="1212dp"
+            android:layout_marginLeft="44dp"
+            android:background="@drawable/block_c"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="19dp"
+            android:text="C Blok"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="1212dp"
+            android:layout_marginLeft="148dp"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="19dp"
+            android:text="Fuaye Alanı"
+            android:textStyle="bold"
+            android:textColor="@color/eggplant_purple"
+            android:textSize="12sp"
+            android:layout_marginTop="1231dp"
+            android:layout_marginLeft="148dp"/>
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="38dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:text="Lorem Ipsum Dolor Sit Amet Elipsir Kuvvey"
+            android:layout_marginTop="1250dp"
+            android:layout_marginLeft="148dp"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/right"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="964dp"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/right"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="1099dp"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/right"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="1234dp"/>
+
+        <TextView
+            android:id="@+id/from_loc_return_homepage"
+            android:layout_width="125dp"
+            android:text="HOME"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:layout_height="20dp"
+            android:layout_marginTop="1330dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/eggplant_purple"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

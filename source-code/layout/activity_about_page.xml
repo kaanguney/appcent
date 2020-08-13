@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutPageActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/splash_bg"/>
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:background="@drawable/left"
+                android:layout_marginTop="65dp"
+                android:id="@+id/Return_From_AboutPage"
+                android:layout_marginLeft="19dp"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Hakkımızda"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="6sp"
+                android:layout_marginTop="61dp"
+                android:layout_marginLeft="48dp"/>
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="337dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/light_black">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/computer"
+                />
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="85dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="LOREM IPSUM DOLOR SIT AMET CONSECUTIR DELIPCIR AMET"
+                android:textSize="23sp"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="215dp"
+                android:layout_marginLeft="75dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="436dp"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="43dp"
+                android:text="Değişim her alanda yeni bilgiye duyulan ihtiyacı artırıyor."
+                android:textSize="15sp"
+                android:lineSpacingExtra="7sp"
+                android:textColor="@color/light_black"
+                android:layout_marginTop="461dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="68dp"
+                android:text="Bugün bildiklerimiz geleceğe hazırlanmak üzere yetmiyor. Tek konuda uzmanlaşmak sürdürülebilir bir işletme için yeterli değil."
+                android:textSize="15sp"
+                android:lineSpacingExtra="6sp"
+                android:textColor="@color/light_black"
+                android:layout_marginTop="520dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="110dp"
+                android:text="Bilgiyi artık sadece okuyarak ya da dinleyerek değil deneyimleyerek alıyoruz. Marketing Türkiye bir bilgi üretim ve paylaşım platformu olarak değişimi sürekli izliyor, bilginin bilenden bilmek isteyene doğru akışını sağlıyor."
+                android:textSize="14sp"
+                android:lineSpacingExtra="6sp"
+                android:textColor="@color/light_black"
+                android:layout_marginTop="600dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="94dp"
+                android:text="Marketing Türkiye girişimcilik, verimlilik, sürdürülebilirlik, pazarlama ve pazarlama iletişimi, inovasyon ve markalaşma alanlarında yayıncılık yapıyor."
+                android:textSize="14sp"
+                android:lineSpacingExtra="6sp"
+                android:textColor="@color/light_black"
+                android:layout_marginTop="725dp"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="140dp"
+                android:text="Her yıl okur ve mecra sayısını artırarak yoluna devam eden Marketing Türkiye, pazarlama sektörünün en güncel haberlerini online-offline mecraları ve sosyal medya hesaplarıyla okuyucularıyla buluşturan, sektörün en önemli referans yayını konumunda."
+                android:textSize="14sp"
+                android:lineSpacingExtra="6sp"
+                android:textColor="@color/light_black"
+                android:layout_marginTop="827dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="20dp"
+                android:text="Tam 28 yıldır..."
+                android:textColor="@color/light_black"
+                android:layout_marginTop="970dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="38dp"
+                android:text="Diğer yandan, etkinlik ve organizasyonlarıyla sektörün nabzını tutmaya devam ediyor:"
+                android:textColor="@color/light_black"
+                android:layout_marginTop="1000dp"
+                android:lineSpacingExtra="6sp"
+                android:layout_centerHorizontal="true"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/rectangle_copy_5"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="1055dp"/>
+                
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="88dp"
+                    android:textColor="@color/light_black"
+                    android:text="İnteraktif Pazarlama Zirvesi İPZ Anadolu ile dijital pazarlama konusunda Türkiye’de düzenlenen ilk ve en uzun soluklu etkinliğe imza atıyor…"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6sp"
+                    android:layout_marginTop="1050dp"
+                    android:layout_marginLeft="60dp"/>
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/rectangle_copy_5"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="1150dp"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="129dp"
+                    android:textColor="@color/light_black"
+                    android:text="Dünyada giderek yükselen bir değer olan “deneyim”, pazarlama profesyonelleri tarafından araştırılıyor, anlamlandırılıyor. Bütünleşik pazarlamanın lider dergisi Marketing Türkiye yükselen bu değeri XCO Deneyim Tasarımı ve Yönetimi Zirvesi ile taçlandırıyor."
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6sp"
+                    android:layout_marginTop="1130dp"
+                    android:layout_marginLeft="60dp"/>
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/rectangle_copy_5"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="1286dp"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="65dp"
+                    android:textColor="@color/light_black"
+                    android:text="Üst düzey pazarlama iletişimi profesyonellerini bir bilgilendirme ve networking platformu olan C Level Club etkinliklerinde bir araya getiriyor."
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6sp"
+                    android:layout_marginTop="1281dp"
+                    android:layout_marginLeft="60dp"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="65dp"
+                    android:textColor="@color/light_black"
+                    android:text="Başarı ödülü hak eder…"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6sp"
+                    android:layout_marginTop="1354dp"
+                    android:layout_marginLeft="43dp"/>
+
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/rectangle_copy_5"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="1383dp"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:textColor="@color/light_black"
+                    android:text="AKADEMETRE iş birliğiyle düzenlenen ve zaman içinde pazarlama sektörünün en önemli standartlarından birine dönüşen The ONE Awards Bütünleşik Pazarlama Ödülleri ile Yıl içinde itibarını en çok artıran markalarla bu başarının en büyük paydaşları olan reklam, medya planlama, dijital ve halkla ilişkiler ajansları ödüllendiriyor."
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6sp"
+                    android:layout_marginTop="1378dp"
+                    android:layout_marginLeft="60dp"/>
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/rectangle_copy_5"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="1570dp"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:textColor="@color/light_black"
+                    android:text="A.L.F.A. Awards ile en iyi müşteri deneyimini yaratan markaları ödüllendiriyor."
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6sp"
+                    android:layout_marginTop="1565dp"
+                    android:layout_marginLeft="60dp"/>
+
+                <ImageView
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:background="@drawable/rectangle_copy_5"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="1616dp"/>
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="109dp"
+                    android:textColor="@color/light_black"
+                    android:text="Social Media Awards’da BoomSonar iş birliği ve Deloitte Türkiye uzmanlığıyla Türkiye’deki tüm marka ve ajansların sosyal medya performanslarını objektif verilerle ölçümleyip ödüllendiriyor."
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="6sp"
+                    android:layout_marginTop="1611dp"
+                    android:layout_marginLeft="60dp"/>
+
+                <TextView
+                    android:layout_width="325dp"
+                    android:layout_height="111dp"
+                    android:layout_marginLeft="43dp"
+                    android:layout_marginTop="1728dp"
+                    android:lineSpacingExtra="6sp"
+                    android:text="Bir nevi “Bilgi bulaştırıcısı” olarak görev yapan Marketing Türkiye bilgi üretim ve paylaşım platformu, değişen dünyanın gerektirdiği bilgiyi sadece yayınlayarak değil yerinde paylaşarak ülkemiz iş dünyasıyla buluşturmaya devam ediyor."
+                    android:textColor="@color/light_black"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="82dp"
+                    android:layout_height="82dp"
+                    android:background="@drawable/alfa_awards"
+                    android:layout_marginTop="1865dp"
+                    android:layout_marginLeft="43dp"/>
+
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="19dp"
+                    android:textColor="@color/light_black"
+                    android:text="A.L.F.A Awards"
+                    android:textSize="14sp"
+                    android:layout_marginTop="1863dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="145dp"/>
+
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="16dp"
+                    android:textColor="@color/eggplant_purple"
+                    android:text="Yapı Kredi bomontiada"
+                    android:textSize="12sp"
+                    android:layout_marginTop="1886dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="145dp"/>
+
+
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="38dp"
+                    android:textColor="@color/light_black"
+                    android:text="Yılın Müşteri Markaları A.L.F.A. Awards’da Belirleniyor"
+                    android:textSize="14sp"
+                    android:layout_marginTop="1908dp"
+                    android:layout_marginLeft="145dp"/>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:background="@drawable/right"
+                    android:layout_marginLeft="360dp"
+                    android:layout_marginTop="1900dp"/>
+
+                    <TextView
+                        android:id="@+id/rounded_rectangle"
+                        android:layout_width="125dp"
+                        android:text="HOME"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:gravity="center_horizontal"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="1970dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@color/eggplant_purple"
+                        />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

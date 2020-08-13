@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/base_layout"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/RootText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kayıt Talebi"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:paddingLeft="48dp"
+                android:paddingTop="62dp"
+                android:background="@drawable/rectangle_copy_5_rectangle_copy_5_rectangle_copy_5_group_mask"/>
+
+            <ImageButton
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="67dp"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/left"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="67dp"
+                android:layout_marginLeft="19dp"
+                android:id="@+id/return_from_register"
+                android:background="@drawable/left"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:id="@+id/base_under"
+            android:layout_below="@+id/base_layout">
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="JOHNNY VINO İLE INTERACTION DESIGN"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="90dp"
+                android:text="Lorem ipsum dolor sit amet ave verum corpus cujus latus unda fluxite sanguine."
+                android:lineSpacingExtra="7sp"
+                android:textSize="15sp"
+                android:textColor="@color/light_black"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/base_under"
+            android:id="@+id/base_under2"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="335dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/rectangle"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="22dp"
+                android:text="Adınız"
+                android:textColor="@color/pinkish_grey"
+                android:textSize="16sp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="17dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/base_under2"
+            android:id="@+id/base_under3"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="335dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/rectangle"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:layout_width="69dp"
+                android:layout_height="22dp"
+                android:text="Soyadınız"
+                android:textColor="@color/pinkish_grey"
+                android:textSize="16sp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="17dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/base_under3"
+            android:id="@+id/base_under4"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="335dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/rectangle"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="22dp"
+                android:text="Firma"
+                android:textColor="@color/pinkish_grey"
+                android:textSize="16sp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="17dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/base_under4"
+            android:id="@+id/base_under5"
+            android:layout_height="55dp"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="335dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/rectangle"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="22dp"
+                android:text="Lorem Ipsum"
+                android:textColor="@color/pinkish_grey"
+                android:textSize="16sp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="17dp"/>
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/base_under5"
+            android:id="@+id/base_under6"
+            android:layout_height="55dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/rectangle"
+                android:layout_marginLeft="21dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="159dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="61dp"
+                android:layout_marginTop="33dp"
+                android:textSize="14sp"
+                android:text="Lorem Ipsum Ave Cetera"
+                android:textColor="@color/light_black"/>
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="94dp"
+            android:layout_below="@+id/base_under6">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/eggplant_purple"/>
+            
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginLeft="113dp"
+                android:text="PRIMARY BUTTON"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

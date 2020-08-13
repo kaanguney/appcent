@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SponsorPageActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/rectangle_copy_5_rectangle_copy_5_rectangle_copy_5_group_mask"/>
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@drawable/left"
+        android:layout_marginLeft="19dp"
+        android:id="@+id/sponsor_return_main"
+        android:layout_marginTop="67dp"/>
+
+    <TextView
+        android:layout_width="267dp"
+        android:layout_height="21dp"
+        android:text="Sponsorlar"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="48dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/colins_website"
+            android:background="@drawable/link" />
+
+        <ImageView
+            android:layout_width="137.1dp"
+            android:layout_height="48.4dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="67dp"
+            android:background="@drawable/colins_logo" />
+
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="209dp"
+            android:layout_marginTop="63dp"
+            android:background="@drawable/etya_logo" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="355dp"
+            android:id="@+id/etiya_site_link"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/link" />
+
+        <ImageView
+            android:layout_width="136.1dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="198dp"
+            android:background="@drawable/fjord" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="165dp"
+            android:id="@+id/fjord_site_link"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/link" />
+
+        <ImageView
+            android:layout_width="137.9dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="217dp"
+            android:layout_marginTop="198dp"
+            android:background="@drawable/yellow_logo" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="355dp"
+            android:id="@+id/i_am_website_link"
+            android:layout_marginTop="170dp"
+            android:background="@drawable/link" />
+
+        <ImageView
+            android:layout_width="137.5dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/mgmt_logo" />
+
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="165dp"
+            android:id="@+id/mgmt_website"
+            android:layout_marginTop="315dp"
+            android:background="@drawable/link" />
+
+        <ImageView
+            android:layout_width="137.5dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="217dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/onecar_logo"/>
+
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="355dp"
+            android:layout_marginTop="322dp"
+            android:id="@+id/one_car_website_link"
+            android:background="@drawable/link" />
+
+        <ImageView
+            android:layout_width="137.5dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="474dp"
+            android:background="@drawable/usersports_logo"/>
+
+        <ImageView
+            android:layout_width="137.5dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="217dp"
+            android:layout_marginTop="463dp"
+            android:background="@drawable/yatsan_logo"/>
+
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="355dp"
+            android:id="@+id/yatsan_website_link"
+            android:layout_marginTop="435dp"
+            android:background="@drawable/link" />
+
+        <ImageView
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="435dp"
+            android:id="@+id/usersports_site_link"
+            android:background="@drawable/link" />
+
+        <TextView
+            android:id="@+id/return_homepage_button"
+            android:layout_width="125dp"
+            android:text="HOME"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:layout_height="20dp"
+            android:layout_marginTop="548dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/eggplant_purple" />
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

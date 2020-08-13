@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AwardsPageActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/RootText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alfa Awards"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:paddingLeft="48dp"
+                android:paddingTop="62dp"
+                android:background="@drawable/rectangle_copy_5_rectangle_copy_5_rectangle_copy_5_group_mask"/>
+
+            <ImageButton
+                android:id="@+id/return_from_awards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="67dp"
+                android:layout_marginLeft="18dp"
+                android:background="@drawable/left"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="67dp"
+                android:layout_marginLeft="19dp"
+                android:id="@+id/left"
+                android:background="@drawable/left"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="375dp"
+            android:background="@drawable/awards"
+            android:layout_marginTop="100dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:id="@+id/under_awards_layout"
+            android:layout_marginTop="475dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="126dp"
+                android:background="@color/white"/>
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="18dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/eggplant_purple"
+                android:text="2019’DA İLK 3’TE YER ALAN MARKALAR"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="102dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:text="E-TİCARET SİTELERİ KATEGORİSİ"
+                android:textSize="17sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/orange"
+                android:layout_marginTop="131dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:id="@+id/userspots_layout"
+            android:layout_below="@+id/under_awards_layout">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:id="@+id/usersports_site_link"
+                android:layout_height="12dp"
+                android:background="@drawable/link"
+                android:layout_marginLeft="353dp"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:layout_width="315dp"
+                android:layout_height="75dp"
+                android:background="@drawable/userspots_logo_modified"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="51.5dp"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:layout_marginLeft="355dp"
+                android:layout_marginTop="50dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:id="@+id/eggplant_line"
+            android:layout_below="@id/userspots_layout"
+            android:background="@color/eggplant_purple">
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:id="@+id/fjord_layout"
+            android:background="@color/white"
+            android:layout_below="@+id/eggplant_line">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:id="@+id/fjord_site_link"
+                android:background="@drawable/link"
+                android:layout_marginLeft="353dp"
+                android:layout_marginTop="15dp"/>
+            
+            <ImageView
+                android:layout_width="204dp"
+                android:layout_height="78dp"
+                android:background="@drawable/fjord_logo_modified"
+                android:layout_marginTop="28dp"
+                android:layout_marginLeft="86dp"
+                android:layout_centerHorizontal="true"/>
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:id="@+id/eggplant_line2"
+            android:layout_below="@+id/fjord_layout"
+            android:background="@color/eggplant_purple">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:id="@+id/etya_layout"
+            android:layout_below="@+id/eggplant_line2"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:id="@+id/etiya_site_link"
+                android:layout_height="12dp"
+                android:background="@drawable/link"
+                android:layout_marginLeft="353dp"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:layout_width="270dp"
+                android:layout_height="70dp"
+                android:background="@drawable/etya_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:id="@+id/eggplant_line3"
+            android:layout_below="@+id/etya_layout"
+            android:background="@color/eggplant_purple">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:id="@+id/half_page_layout"
+            android:background="@color/white"
+            android:layout_below="@+id/eggplant_line3">
+
+            <TextView
+                android:layout_width="302dp"
+                android:layout_height="48dp"
+                android:text="DİJİTAL YAYIN PLATFORMLARI KATEGORİSİ"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="41dp"
+                android:layout_marginLeft="25dp"/>
+            
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/orange"
+                android:layout_marginTop="94dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:id="@+id/rem_page_start"
+            android:layout_below="@+id/half_page_layout"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:id="@+id/usersports2_site_link"
+                android:layout_height="12dp"
+                android:background="@drawable/link"
+                android:layout_marginLeft="353dp"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:layout_width="315dp"
+                android:layout_height="75dp"
+                android:background="@drawable/userspots_logo_modified"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="51.5dp"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:layout_marginLeft="355dp"
+                android:layout_marginTop="50dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/rem_page_start"
+            android:id="@+id/eggplant_line4"
+            android:background="@color/eggplant_purple">
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:id="@+id/fjord_rem"
+            android:layout_below="@+id/eggplant_line4">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:id="@+id/fjord2_site_link"
+                android:background="@drawable/link"
+                android:layout_marginLeft="353dp"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:layout_width="204dp"
+                android:layout_height="78dp"
+                android:background="@drawable/fjord_logo_modified"
+                android:layout_marginTop="28dp"
+                android:layout_marginLeft="86dp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:id="@+id/eggplant_line5"
+            android:background="@color/eggplant_purple"
+            android:layout_below="@+id/fjord_rem">
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:id="@+id/etya_rem"
+            android:layout_below="@id/eggplant_line5">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:id="@+id/etiya2_site_link"
+                android:background="@drawable/link"
+                android:layout_marginLeft="353dp"
+                android:layout_marginTop="15dp"/>
+
+            <ImageView
+                android:layout_width="270dp"
+                android:layout_height="70dp"
+                android:background="@drawable/etya_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/etya_rem"
+            android:layout_height="30dp">
+
+            <TextView
+                android:id="@+id/return_home_from_awards"
+                android:layout_width="125dp"
+                android:text="HOME"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/eggplant_purple" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

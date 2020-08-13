@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PreviouslyXCOActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_copy_5_rectangle_copy_5_rectangle_copy_5_group_mask"/>
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/left"
+            android:id="@+id/return_from_previously_xco"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="67dp"/>
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="21dp"
+            android:lineSpacingExtra="6sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Geçmişte XCO"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="62dp"/>
+
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="24dp"
+            android:textStyle="bold"
+            android:text="XCO 18'"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="99dp"
+            android:layout_marginLeft="25dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/orange"
+            android:layout_marginTop="128dp"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="240dp"
+            android:id="@+id/thumbnail_top"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/thumbnail"
+            android:layout_marginTop="153dp"/>
+
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="24dp"
+            android:textStyle="bold"
+            android:text="XCO 17'"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="420dp"
+            android:layout_marginLeft="25dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/orange"
+            android:layout_marginTop="450dp"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="240dp"
+            android:id="@+id/thumbnail_bottom"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/thumbnail"
+            android:layout_marginTop="475dp"/>
+
+        <TextView
+            android:layout_width="66dp"
+            android:layout_height="24dp"
+            android:textStyle="bold"
+            android:text="XCO 16'"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="735dp"
+            android:layout_marginLeft="25dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/orange"
+            android:layout_marginTop="765dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="69dp"
+                android:background="@drawable/gallery_icon"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="790dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="69dp"
+                android:background="@drawable/gallery_icon"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="790dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="69dp"
+                android:background="@drawable/gallery_icon"
+                android:layout_marginLeft="265dp"
+                android:layout_marginTop="790dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="69dp"
+                android:background="@drawable/gallery_icon"
+                android:layout_marginLeft="155dp"
+                android:layout_marginTop="876dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="69dp"
+                android:background="@drawable/gallery_icon"
+                android:layout_marginLeft="265dp"
+                android:layout_marginTop="876dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="69dp"
+                android:background="@drawable/gallery_icon"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="876dp"/>
+
+            <TextView
+                android:layout_width="88dp"
+                android:layout_height="20dp"
+                android:text="Galeri'ye Git"
+                android:textColor="@color/eggplant_purple"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="955dp"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:background="@drawable/right"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="958dp"/>
+
+            <TextView
+                android:id="@+id/return_home_from_end"
+                android:layout_width="125dp"
+                android:text="HOME"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:layout_height="20dp"
+                android:layout_marginTop="997dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/eggplant_purple"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/splash_bg"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="37dp"
+            android:id="@+id/aligner"
+            android:layout_marginLeft="18dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/xco_2018_logo"/>
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:background="@color/black"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="85dp"/>
+                
+                <ImageView
+                    android:layout_width="122dp"
+                    android:layout_height="57dp"
+                    android:layout_marginLeft="115dp"
+                    android:background="@drawable/mt_1_haz_02"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_marginTop="300dp">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1320dp"
+            android:background="@color/orange">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="205dp"
+                android:text="Hakkımızda"
+                android:textColor="@color/eggplant_purple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="355dp"
+                android:layout_marginTop="213dp"
+                android:id="@+id/AboutPage"
+                android:background="@drawable/right" />
+
+            <ImageView
+                android:layout_width="345dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="250dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="285dp"
+                android:text="Sponsorlar"
+                android:textColor="@color/eggplant_purple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="355dp"
+                android:layout_marginTop="290dp"
+                android:id="@+id/sponsor_page"
+                android:background="@drawable/right" />
+
+            <ImageView
+                android:layout_width="345dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="330dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="365dp"
+                android:text="Geçmişte XCO"
+                android:textColor="@color/eggplant_purple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="440dp"
+                android:text="Lokasyon"
+                android:textColor="@color/eggplant_purple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="355dp"
+                android:layout_marginTop="445dp"
+                android:id="@+id/location"
+                android:background="@drawable/right" />
+
+            <ImageView
+                android:layout_width="345dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="475dp"
+                android:background="@color/black" />
+
+            <ImageButton
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="355dp"
+                android:layout_marginTop="369dp"
+                android:id="@+id/xco"
+                android:background="@drawable/right" />
+
+            <ImageView
+                android:layout_width="345dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="405dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="515dp"
+                android:text="İletişim"
+                android:textColor="@color/eggplant_purple"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="345dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="550dp"
+                android:background="@color/black" />
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginLeft="355dp"
+                android:layout_marginTop="520dp"
+                android:id="@+id/communication"
+                android:background="@drawable/right" />
+
+            <TextView
+                android:id="@+id/home_button"
+                android:layout_width="125dp"
+                android:text="HOME"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center_horizontal"
+                android:layout_height="20dp"
+                android:layout_marginTop="598dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/eggplant_purple" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:background="@color/orange"
+                android:layout_marginTop="800dp"/>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/white"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="773dp">
+
+                <TextView
+                    android:layout_width="54dp"
+                    android:layout_height="18dp"
+                    android:text="Program"
+                    android:textColor="@color/eggplant_purple"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="125dp"
+                    android:id="@+id/navigate_program"
+                    android:background="@drawable/right"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/white"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="773dp">
+
+                <TextView
+                    android:layout_width="89dp"
+                    android:layout_height="32dp"
+                    android:text="Deneyim Alanları"
+                    android:textColor="@color/eggplant_purple"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="125dp"
+                    android:id="@+id/navigate_experience"
+                    android:background="@drawable/right"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/white"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="943dp">
+
+                <TextView
+                    android:layout_width="78dp"
+                    android:layout_height="32dp"
+                    android:text="A.L.F.A Awards"
+                    android:textColor="@color/eggplant_purple"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="125dp"
+                    android:id="@+id/navigate_awards"
+                    android:background="@drawable/right"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@color/white"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="943dp">
+
+                <TextView
+                    android:layout_width="89dp"
+                    android:layout_height="32dp"
+                    android:text="Bilet Al"
+                    android:textColor="@color/eggplant_purple"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="125dp"
+                    android:layout_marginTop="125dp"
+                    android:id="@+id/ticket_purchase"
+                    android:background="@drawable/right"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="116dp"
+                android:layout_height="20dp"
+                android:text="KONUŞMACILAR"
+                android:textStyle="bold"
+                android:layout_marginLeft="25dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginTop="1120dp"/>
+
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="17dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="1120dp"
+                android:text="Tüm Konuşmacılar"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="@color/eggplant_purple"/>
+
+            <ImageButton
+                android:id="@+id/navigate_speakers"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="360dp"
+                android:layout_marginTop="1124dp"
+                android:background="@drawable/right" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"
+            android:scrollbarStyle="outsideInset"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:scrollbarSize="5dp"
+            android:scrollbarThumbHorizontal="@color/eggplant_purple"
+            android:id="@+id/recycler_view_main"
+            android:scrollbars = "horizontal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:layout_below="@+id/recycler_view_main">
+
+            <TextView
+                android:layout_width="283dp"
+                android:layout_height="30dp"
+                android:textStyle="bold"
+                android:id="@+id/xco19"
+                android:textSize="24sp"
+                android:text="XCO 19'"
+                android:paddingLeft="90dp"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="283dp"
+                android:layout_height="20dp"
+                android:textColor="@color/light_black"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/xco19"
+                android:text="Deneyim Tasarımı ve Yönetim Zirvesi’ne son:"/>
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="5dp"
+                android:background="@color/black"
+                android:layout_marginTop="119dp"/>
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="5dp"
+                android:background="@color/black"
+                android:layout_marginTop="119dp"
+                android:layout_marginLeft="347dp"/>
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="46dp"
+                android:background="@drawable/thirtyfive"
+                android:layout_marginLeft="110dp"
+                android:id="@+id/thirtyfive"
+                android:layout_marginTop="87dp"/>
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="46dp"
+                android:id="@+id/eight"
+                android:background="@drawable/eight"
+                android:layout_marginTop="87dp"
+                android:layout_marginLeft="181dp"/>
+
+            <ImageView
+                android:layout_width="41dp"
+                android:layout_height="46dp"
+                android:id="@+id/fortysix"
+                android:background="@drawable/fortysix"
+                android:layout_marginTop="87dp"
+                android:layout_marginLeft="252dp"/>
+
+            <TextView
+                android:layout_width="29dp"
+                android:layout_height="22dp"
+                android:textColor="@color/light_black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="gün"
+                android:layout_below="@+id/thirtyfive"
+                android:layout_marginLeft="115dp"/>
+
+            <TextView
+                android:layout_width="32dp"
+                android:layout_height="22dp"
+                android:textColor="@color/light_black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="saat"
+                android:layout_below="@+id/thirtyfive"
+                android:layout_marginLeft="185dp"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="22dp"
+                android:textColor="@color/light_black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="dakika"
+                android:layout_below="@+id/thirtyfive"
+                android:layout_marginLeft="253dp"/>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="1130dp"
+            android:layout_marginBottom="100dp"
+            android:layout_marginLeft="15dp"
+            android:scrollbarStyle="outsideInset"
+            android:orientation="horizontal"
+            android:scrollbarSize="5dp"
+            android:scrollbarThumbHorizontal="@color/eggplant_purple"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            android:id="@+id/recycler_view"
+            android:scrollbars = "horizontal"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

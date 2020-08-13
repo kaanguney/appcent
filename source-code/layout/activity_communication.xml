@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommunicationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/rectangle_copy_5_rectangle_copy_5_rectangle_copy_5_group_mask"/>
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:background="@drawable/left"
+            android:id="@+id/return_from_comm_page"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="67dp"/>
+
+        <TextView
+            android:layout_width="267dp"
+            android:layout_height="21dp"
+            android:lineSpacingExtra="6sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="İletişim"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="62dp"/>
+
+        <TextView
+            android:layout_width="325dp"
+            android:layout_height="43dp"
+            android:text="Lorem ipsum dolor sit amet ave verum corpus cujus latus unda fluxite sanguine."
+            android:textColor="@color/light_black"
+            android:textSize="15sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            />
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="55dp"
+            android:background="@drawable/fill_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="203dp"/>
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="55dp"
+            android:background="@drawable/fill_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="288dp"/>
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="55dp"
+            android:background="@drawable/fill_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="373dp"/>
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="55dp"
+            android:background="@drawable/fill_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="458dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/little_rectangle"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="543dp"/>
+
+        <TextView
+            android:layout_width="159dp"
+            android:layout_height="19dp"
+            android:textColor="@color/light_black"
+            android:text="Lorem Ipsum Ave Cetera"
+            android:textSize="14sp"
+            android:layout_marginLeft="82dp"
+            android:layout_marginTop="545dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="10dp"
+            android:layout_marginTop="650dp"
+            android:text="PRIMARY BUTTON"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:background="@color/eggplant_purple"
+            android:paddingLeft="110dp"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/RootText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Konuşmacılar"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:paddingLeft="48dp"
+                    android:paddingTop="62dp"
+                    android:background="@drawable/rectangle_copy_5_rectangle_copy_5_rectangle_copy_5_group_mask"/>
+
+                <ImageButton
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="67dp"
+                    android:layout_marginLeft="18dp"
+                    android:background="@drawable/left"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="67dp"
+                    android:layout_marginLeft="19dp"
+                    android:id="@+id/left"
+                    android:background="@drawable/left"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/y"/>
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="19dp"
+                    android:text="Mustafa Dalcı"
+                    android:textSize="14sp"
+                    android:layout_marginTop="28dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="16dp"
+                    android:text="Userspots Kurucu Ortağı"
+                    android:textSize="12sp"
+                    android:textColor="@color/eggplant_purple"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Beklenti Ekonomisi ve İyi Yaşama Hali"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/z"/>
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="19dp"
+                    android:text="Özgür Mutluöz"
+                    android:textSize="14sp"
+                    android:layout_marginTop="28dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="16dp"
+                    android:text="Arçelik UX/UI Design Manager"
+                    android:textSize="12sp"
+                    android:textColor="@color/eggplant_purple"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Beyaz Eşya ve Diğer Eşyalar Üzerine"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"/>
+
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/x"/>
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="19dp"
+                    android:text="Ebru Darip"
+                    android:textSize="14sp"
+                    android:layout_marginTop="28dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:text="Koçtaş Chief Marketing and Digital Channels Officer"
+                    android:textSize="12sp"
+                    android:textColor="@color/eggplant_purple"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Sandalye, Masa, Diğer Eşyalar ve Her Türlü Eşya Üzerine"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"/>
+
+                <ImageButton
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/y"/>
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="19dp"
+                    android:text="Mustafa Dalcı"
+                    android:textSize="14sp"
+                    android:layout_marginTop="28dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="16dp"
+                    android:text="Userspots Kurucu Ortağı"
+                    android:textSize="12sp"
+                    android:textColor="@color/eggplant_purple"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Beklenti Ekonomisi ve İyi Yaşama Hali"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"/>
+
+                <ImageButton
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/z"/>
+                <TextView
+                    android:layout_width="84dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="20dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="19dp"
+                    android:text="Özgür Mutluöz"
+                    android:textSize="14sp"
+                    android:layout_marginTop="28dp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="16dp"
+                    android:text="Arçelik UX/UI Design Manager"
+                    android:textSize="12sp"
+                    android:textColor="@color/eggplant_purple"/>
+                <TextView
+                    android:layout_width="201dp"
+                    android:layout_height="wrap_content"
+                    android:text="Beyaz Eşya ve Diğer Eşyalar Üzerine"
+                    android:textSize="13.5sp"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"/>
+
+                <ImageButton
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="62dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/right"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

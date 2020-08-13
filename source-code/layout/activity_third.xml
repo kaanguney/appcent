@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/RootText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Johnny Vino"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:paddingLeft="48dp"
+                    android:paddingTop="62dp"
+                    android:background="@drawable/rectangle_copy_5_rectangle_copy_5_rectangle_copy_5_group_mask"/>
+
+                <ImageButton
+                    android:id="@+id/button8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="67dp"
+                    android:layout_marginLeft="18dp"
+                    android:background="@drawable/left"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="67dp"
+                    android:layout_marginLeft="19dp"
+                    android:id="@+id/left"
+                    android:background="@drawable/left"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/johnny_picture"
+                android:layout_height="match_parent"
+                android:background="@drawable/johnny"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="275dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp"
+                android:text="JOHNNY VINO İLE INTERACTION DESIGN"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="325dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/logo"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:text="Ne Zaman?"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginLeft="25dp"
+                android:text="13.00-14.00"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Nerede?"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="175dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:text="Bomonti A Block"
+                android:textColor="@color/black"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="20dp"/>
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="20dp"
+                android:background="@drawable/share_2"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="15dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="160dp"
+                android:text="Lorem ipsum dolor sit amet ave verum corpus cujus latus unda fluxite sanguine. Esto nobis prae gustatum in mortis ex amine in mortis examine. Lorem ipsum dolor sit amet ave verum corpus gulash cujus latus unda fluxite sanguine. Esto nobis prae gustatum in mortis ex amine in mortis demike."
+                android:textColor="@color/black"
+                android:paddingLeft="25dp"
+                android:layout_marginTop="19dp"
+                android:textSize="17sp"
+                android:lineSpacingExtra="7sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:padding="10dp"
+                android:layout_marginTop="40dp"
+                android:text="PRIMARY BUTTON"
+                android:id="@+id/navigate_registration2"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:background="@color/eggplant_purple"
+                android:paddingLeft="110dp"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+

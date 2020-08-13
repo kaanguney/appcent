@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appcent2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/xco_2018_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/xco_2018_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".AwardsPageActivity" />
+        <activity android:name=".CommunicationActivity" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".PreviouslyXCOActivity" />
+        <activity android:name=".SponsorPageActivity" />
+        <activity android:name=".AboutPageActivity" />
+        <activity android:name=".ZerothActivity" />
+        <activity android:name=".SixthActivity" />
+        <activity android:name=".FifthActivity" />
+        <activity android:name=".FourthActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
